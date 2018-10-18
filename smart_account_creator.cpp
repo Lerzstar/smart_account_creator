@@ -38,7 +38,7 @@ public:
     const auto owner_auth  = authority{  1, {{owner_pubkey,  1}}, {}, {}  };
     const auto active_auth = authority{  1, {{active_pubkey, 1}}, {}, {}  };
 
-    const auto amount = rambytes_price(4 * 1024);
+    const auto amount = rambytes_price(3 * 1024);
     const auto ram_replace = rambytes_price(256);
     const auto cpu = asset(1000);
     const auto net = asset(1000);

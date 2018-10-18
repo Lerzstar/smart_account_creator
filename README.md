@@ -28,7 +28,7 @@ mynewaccount-EOS6ra2QHsDr6yMyFaPaNwe3Hz8XmYRj3B68e5tbDchyPTTasgFH9
 When you withdraw your EOS to the setupaccount smart contract, it will perform the following steps in order:
 
 1. Create a new account using your specified name, owner key and active key
-1. Buy 4KB of RAM for your new account with parts of the transferred EOS. Every account that is created on the EOS network needs 4 KB of RAM to exist.
+1. Buy 3 KB of RAM for your new account with parts of the transferred EOS. Every account that is created on the EOS network needs RAM to exist.
 1. Delegate and transfer 0.1 EOS for CPU and 0.1 EOS for NET.
 1. Forward the remaining EOS balance to your new account.
 
